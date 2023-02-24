@@ -1,0 +1,187 @@
+* {
+margin: 0px;
+padding: 0px;
+
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+} 
+h2 {
+  font: bold 14px verdana, sans-serif;
+}
+
+h3{
+  padding: 10px;
+  font-size: 2em;
+}
+
+/*para asegurarnos de que serán tratados como regularmente
+se hace con elementos <div> y de este modo construir
+el modelo de caja*/
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+
+/*Centrando el cuerpo*/
+body, #agrupar{
+  font-family: 'Ubuntu', sans-serif;
+text-align: center;
+/*background-image: url("paper.gif");*/
+/*background-color: lightblue;*/
+}
+/*Definiendo las propiedades de la caja principal*/
+#agrupar {
+width: 960px;
+margin: 15px auto;
+text-align: left;
+background:crimson;
+}
+/* Agregando estilos para <header>.*/
+#cabecera {
+background: rgba(185, 251, 255, 0.472);
+border: 2px solid #59814194;
+padding: 20px;
+
+}
+/*Agregando estilos para <nav>.*/
+#menu{
+    background: #385b85;
+    padding: 5px 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#menu li {
+    display: inline-block;
+    list-style: none; /*list-style: square inside url("sqpurple.gif");*/
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+/*Section y aside*/
+/*La propiedad flotante especifica cómo debe flotar un elemento.
+Nota: ¡Los elementos absolutamente posicionados ignoran
+la propiedad de flotación!
+Nota: los elementos después de un elemento flotante fluirán a su alrededor.
+Para evitar esto, use la propiedad clear o el clearfix hack
+*/
+#seccion {
+    float: right;
+    width: 670px;
+    margin: 20px 0px 0px 0px;
+}
+
+#columna {
+    float: left;
+    width: 210px;
+    height: 1863px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #04b2fd88;
+}
+/*Footer*/
+#pie {
+    clear: both;/* No permita elementos flotantes en el lado izquierdo
+                    o derecho de un elemento <p> especificado:*/
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #7bbd6b;
+}
+/*imagenes*/
+img{
+  border-radius: 5px;
+}
+
+/*Agregando los últimos toques a nuestro diseño básico.*/
+article {
+    background: rgb(96, 87, 104);
+    border: 2px solid greenyellow;
+    padding: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+article .subcontenido{
+        background-color: rgb(98, 27, 49);
+        text-align: left;
+        padding: 10px 10px 10px 10px;
+}
+
+.subcontenido h1{
+    text-align: center;
+}
+
+.subcontenido div,video{
+  text-align: center;
+  border-style: groove;
+  border-radius: 15px;
+  border-color: darkblue  ;
+  margin: 15px;
+}
+
+iframe{
+  text-align: center;
+  border-style: groove;
+  border-radius: 15px;
+  border-color: darkblue  ;
+  margin: 15px;
+}
+.subcontenido  strong{
+  color: black;
+  }
+.subcontenido #item,ul{
+  color: rgb(36, 182, 50);
+  
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+article footer {
+text-align: right;
+}
+
+img{
+  width: 30%;
+  height: 35%;
+}
+
+time {
+color: #999999;
+}
+
+figcaption {
+font: italic 14px verdana, sans-serif;
+}
+
+
+
+
+
+ol{
+  text-align: center;
+  font-size: 1.5rem;
+  list-style-type: upper-roman;
+}
+li{
+  background-color: #ceb7c8;
+
+}
+#primera{
+  background-color: blue;
+  color: violet;
+}
+#segunda{
+  background-color: beige;
+  color: blue;
+}
+#tercera{
+  background-color:aqua;
+  color: orange;
+}
+#cuarta{
+  background-color: rgb(177, 177, 99);
+  color: yellow;
+}
+#quinta{
+  background-color: rgb(101, 177, 43);
+  text-decoration: dashed;
+}
